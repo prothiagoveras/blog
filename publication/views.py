@@ -12,3 +12,6 @@ def about(request):
 
 def post(request):
     return render(request, 'post.html')
+
+def login(request):
+    return render(request, 'login.html')
